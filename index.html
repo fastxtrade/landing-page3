@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="mr">
+<head>
+    <meta charset="UTF-8">
+    <title>Telegram Landing Page</title>
+
+    <!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '24957024900641567');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=24957024900641567&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+     
+
+
+
+<div class="card">
+
+    <img src="logo.png.jpeg" class="logo" alt="Logo">
+
+    
+
+    <h2>मराठी ट्रेडिंग समुदाय ⚔️📊</h2>
+
+    <p>📊 Banknifty, Nifty, Stock Option Free Calls</p>
+    <p>9200 members ने आधीच जॉईन केले आहे</p>
+    <p>🚩📈 PERFECT ENTRY / EXIT FORMULA</p>
+    <p>कमी भांडवलामध्ये अधिक नफा मिळवून देणारा एकमेव चैनल</p>
+    <p>अगदी सोप्या भाषेत मार्गदर्शन</p>
+
+    <p class="members">👥 5700 Members</p>
+
+    <p id="timer" class="timer">
+  ⏳ Time left: <span id="count">19</span> seconds
+</p>
+
+    <p>🚀 आत्ताच lifetime फ्री ग्रुप जॉईन करा</p>
+
+    <a href="https://t.me/tradingguruj9" class="btn">
+        🚀 Join on Telegram
+    </a>
+
+    <script>
+  let timeLeft = 19;
+  const countEl = document.getElementById("count");
+  const timerText = document.getElementById("timer");
+
+  const countdown = setInterval(() => {
+    timeLeft--;
+    countEl.innerText = timeLeft;
+
+    if (timeLeft <= 0) {
+      clearInterval(countdown);
+      timerText.innerText = "⏱️ Timer completed";
+    }
+  }, 1000);
+</script>
+</div>
+
+</body>
+</html>
+
